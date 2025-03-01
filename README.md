@@ -1,4 +1,4 @@
-![Ekran görüntüsü 2025-03-01 222357](https://github.com/user-attachments/assets/70b2dad8-b586-4891-8b62-03554354a218)#🚀 Admin Panelli Ajans Web Sitesi
+# **🚀 Admin Panelli Ajans Web Sitesi**
 
 Admin paneli tarafında tüm veriler için ekleme, silme, güncelleme işlemleri mevcuttur.
 Arayüzde görünen tüm veriler veri tabanından çekilmiştir.
