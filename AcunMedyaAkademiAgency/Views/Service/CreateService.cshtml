@@ -1,0 +1,28 @@
+﻿@model AcunMedyaAkademiAgency.Entities.Service
+@{
+    ViewBag.Title = "CreateService";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Hizmet Ekleme Sayfası</h2>
+
+<form method="post">
+    <table class="table table-borderless" style="width: 50%; margin-left: 0;">
+        <tr>
+            <td><label>Hizmet Adı</label></td>
+            <td><input type="text" class="form-control" name="Title" /></td>
+        </tr>
+        <tr>
+            <td><label>Hizmet Resmi</label></td>
+            <td><input type="text" class="form-control" name="ImageUrl" /></td>
+        </tr>
+        <tr>
+            <td><label>Hizmet Açıklaması</label></td>
+            <td><textarea rows="4" class="form-control" name="Description"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button class="btn" style="background-color: #ff4081; color: white;">Hizmeti Kaydet</button></td>
+        </tr>
+    </table>
+</form>
